@@ -6,7 +6,7 @@ This is a simple [React](https://facebook.github.io/react/), [Webpack](http://we
 - react
 - webpack
 - babel
-[react-webpack-babel](https://github.com/alicoding/react-webpack-babel)
+- [react-webpack-babel](https://github.com/alicoding/react-webpack-babel)
 
 ## What does not work yet
 - The filter does not work.
