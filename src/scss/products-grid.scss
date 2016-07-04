@@ -1,0 +1,88 @@
+.title {
+  color: $red_primary;
+  font-weight: 200;
+}
+
+.products-grid {
+  min-height: 560px;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.product-box {
+  position: relative;
+  height: 250px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .product-image {
+    width: 120px;
+    height: 120px;
+    position: relative;
+  }
+
+  .product-name {
+    font-size: .85em;
+    color: $dark_gray;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0.1em;
+  }
+
+  .product-details {
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .product-description {
+    margin: 0 10px;
+  }
+
+  .product-measurement {
+    font-size: .6em;
+    color: $light_gray;
+  }
+
+  .product-price {
+    font-weight: 600;
+    margin: 0 10px;
+  }
+
+  .product-add-to-cart {
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: $red_primary;
+    padding: 7px 10px;
+    font-size: .5em;
+  }
+  .button {
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($red_primary, 10);
+      color: $white;
+    }
+
+    .text {
+      padding-left: 30px;
+      display: block!important;
+    }
+  }
+  .button-icon {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    fill: $white;
+    left: 10px;
+    top: 2px;
+  }
+}
